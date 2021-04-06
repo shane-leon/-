@@ -1,0 +1,13 @@
+/* pages/list/list.wxss */
+.header{
+  text-align: center;
+  padding:25rpx;
+  border-bottom: 1px solid #9999;
+  display: flex;
+}
+image{
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 100rpx;
+}
+

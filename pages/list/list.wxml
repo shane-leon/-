@@ -1,0 +1,21 @@
+<!-- 未登录显示的内容 -->
+<view class="header" wx:if="{{onOff}}">游客</view>
+<!-- 登录后显示的内容 -->
+<view class="header" wx:if="{{!onOff}}">
+	<image src='{{ userInfo.avatarUrl }}'></image>
+	<text>{{ userInfo.nickName }}</text>
+</view>
+
+
+<!-- 左滑删除 -->
+<view class="page__bd page_ab">
+	<view class="weui-cells">
+		<mp-slideview wx:for="{{ lists }}" buttons="{{slideButtons}}" bindbuttontap="todetail" data-id="{{ item.id }}" data-title="{{ item.title }}">
+			<!-- <view>
+				这是测试测试测试测试测试
+			</view> -->
+			<mp-cell value="{{ item.title }}" footer="左划查看">
+			</mp-cell>
+		</mp-slideview>
+	</view>
+</view>

@@ -1,0 +1,14 @@
+<!--pages/type/type.wxml-->
+<!-- <text>pages/type/type.wxml</text> -->
+<view class="box">
+	<view class="header"></view>
+	<view class="center">
+		<button class="button" 
+		wx:for="{{ types }}" 
+		bindtap="tolist" 
+		data-id="{{ item.classifyId }}" 
+		data-classify="{{ item.classify }}">
+			{{ item.classify }}
+		</button>
+	</view>
+</view>

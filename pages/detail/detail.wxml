@@ -1,0 +1,11 @@
+<view>
+	<view>
+		<radio-group bindchange="radioChange">
+			<radio value="25" checked="{{ size == 25  ? true : '' }}">大</radio>
+			<radio value="20" checked="{{ size == 20  ? true : '' }}">小</radio>
+		</radio-group>
+	</view>
+	<view style="font-size:{{ size }}px">
+		{{ content }}
+	</view>
+</view>

@@ -1,0 +1,24 @@
+<!--index.wxml-->
+<view>
+  <swiper
+    indicator-dots="{{ true }}"
+    indicator-color="#000"
+    indicator-active-color="#fff"
+    autoplay="{{ true }}"
+    interval="1000"
+  >
+    <swiper-item  wx:for="{{ arr }}" >
+      <image src="{{ item }}"></image>
+    </swiper-item>
+  </swiper>
+
+  <view class="dump">
+    <text style="margin-right:10px">{{ num }}s</text>
+    <text bindtap="dump">跳过广告</text>
+  </view>
+
+  <view class="content">
+    <text>欢迎来到童话故事！！！</text>
+  </view>
+
+</view>

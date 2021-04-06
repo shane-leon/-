@@ -1,0 +1,37 @@
+/* pages/my/my.wxss */
+.header{
+  width: 100vw;
+  height: 28vh;
+  background: #ec6e48;
+  text-align: center;
+}
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 60rpx;
+}
+
+.center .button {
+  width: 280rpx;
+  height: 80rpx;
+  font-size: 32rpx;
+  margin-top: 20rpx;
+  margin-bottom: 100rpx;
+  font-weight: 100;
+  background-color:	#575757 ;
+  color: #fff;
+}
+.tu{
+  width: 100rpx;
+  height: 100rpx;
+  margin-top: 100rpx;
+}

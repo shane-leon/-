@@ -1,0 +1,32 @@
+/* pages/type/type.wxss */
+page{
+  background-image: url("https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=2786355696,4245713380&fm=11&gp=0.jpg");
+
+  background-repeat: no-repeat;
+  background-size: 100%  100%;
+}
+.center {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  width: 80vw;
+  height: 60vh;
+  /* background-color: #AEEEEE; */
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.center .button {
+  width: 280rpx;
+  height: 80rpx;
+  font-size: 36rpx;
+  margin-top: 20rpx;
+  font-weight: 100;
+  background-color:rgba(102 , 205 , 170, 0.8) ;
+  color: #fff;
+
+}
