@@ -21,32 +21,32 @@
       {
         "pagePath": "pages/type/type",
         "text": "童话故事",
-        "iconPath": "/images/index.png",
-        "selectedIconPath": "/images/indexFull.png"
+        "iconPath": "./pages/images/icon/dianzan.png",
+        "selectedIconPath": "./pages/images/icon/jiandan.png"
       },
       {
         "pagePath": "pages/newName/newName",
         "text": "周公解梦",
-        "iconPath": "/images/index.png",
-        "selectedIconPath": "/images/indexFull.png"
+        "iconPath": "./pages/images/icon/fengche.png",
+        "selectedIconPath": "./pages/images/icon/jiandan.png"
       },
       {
         "pagePath": "pages/newData/newData",
         "text": "天气预报",
-        "iconPath": "/images/index.png",
-        "selectedIconPath": "/images/indexFull.png"
+        "iconPath": "./pages/images/icon/naozhong.png",
+        "selectedIconPath": "./pages/images/icon/jiandan.png"
       },
       {
         "pagePath": "pages/new/new",
         "text": "星座运势",
-        "iconPath": "/images/my.png",
-        "selectedIconPath": "/images/myFull.png"
+        "iconPath": "./pages/images/icon/fengzheng.png",
+        "selectedIconPath": "./pages/images/icon/jiandan.png"
       },
       {
         "pagePath": "pages/my/my",
         "text": "驾照题库",
-        "iconPath": "/images/my.png",
-        "selectedIconPath": "/images/myFull.png"
+        "iconPath": "./pages/images/icon/zhifeiji.png",
+        "selectedIconPath": "./pages/images/icon/jiandan.png"
       }
     ]
   },
