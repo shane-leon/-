@@ -1,11 +1,3 @@
-<!-- 未登录显示的内容 -->
-<view class="header" wx:if="{{onOff}}">游客</view>
-<!-- 登录后显示的内容 -->
-<view class="header" wx:if="{{!onOff}}">
-	<image src='{{ userInfo.avatarUrl }}'></image>
-	<text>{{ userInfo.nickName }}</text>
-</view>
-
 
 <!-- 左滑删除 -->
 <view class="page__bd page_ab">

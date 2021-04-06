@@ -1,7 +1,8 @@
 /* pages/type/type.wxss */
-page{
-
- background: #fff;
+.box{
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(212deg,#FFE4B5,#F5F5F5);
 }
 .center {
   position: absolute;
