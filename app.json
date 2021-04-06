@@ -1,6 +1,9 @@
 {
   "pages": [
+    "pages/newName/newName",
     "pages/index/index",
+    "pages/newData/newData",
+    "pages/new/new",
     "pages/type/type",
     "pages/list/list",
     "pages/detail/detail",
@@ -17,13 +20,31 @@
     "list": [
       {
         "pagePath": "pages/type/type",
-        "text": "童话分类",
+        "text": "童话故事",
         "iconPath": "/images/index.png",
         "selectedIconPath": "/images/indexFull.png"
       },
       {
+        "pagePath": "pages/newName/newName",
+        "text": "周公解梦",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/indexFull.png"
+      },
+      {
+        "pagePath": "pages/newData/newData",
+        "text": "天气预报",
+        "iconPath": "/images/index.png",
+        "selectedIconPath": "/images/indexFull.png"
+      },
+      {
+        "pagePath": "pages/new/new",
+        "text": "星座运势",
+        "iconPath": "/images/my.png",
+        "selectedIconPath": "/images/myFull.png"
+      },
+      {
         "pagePath": "pages/my/my",
-        "text": "我的",
+        "text": "驾照题库",
         "iconPath": "/images/my.png",
         "selectedIconPath": "/images/myFull.png"
       }

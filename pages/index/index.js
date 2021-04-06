@@ -19,20 +19,20 @@ Page({
     this.zouma() 
   },
   zouma(){
-    timer= setInterval(()=>{
-      this.data.num--
-      if(this.data.num<=0){
-        wx.switchTab({
-          url: '/pages/type/type',
-        })
-        // 清除定时器
-        if(timer)clearInterval(timer)
-        return false;
-      } 
-      this.setData({
-      num: this.data.num
-    })
-    },1000)
+    // timer= setInterval(()=>{
+    //   this.data.num--
+    //   if(this.data.num<=0){
+    //     wx.switchTab({
+    //       url: '/pages/type/type',
+    //     })
+    //     // 清除定时器
+    //     if(timer)clearInterval(timer)
+    //     return false;
+    //   } 
+    //   this.setData({
+    //   num: this.data.num
+    // })
+    // },1000)
   },
    // 跳过广告操作
    dump(){
